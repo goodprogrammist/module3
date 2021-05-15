@@ -7,7 +7,7 @@ def input_number(text):
         return num
     except ValueError:
         print("Вы точно вводите число? Попробуйте снова.")
-        input_number(text)
+        return input_number(text)
 
 
 # Что нужно сделать:
